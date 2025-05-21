@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" viewBox="0 0 45 45">
+    <g fill="#30884b" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2" id="pulse">
+        <circle cx="22" cy="22" r="6" fill-opacity="0.4">
+            <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite"></animate>
+            <animate attributeName="fill-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite"></animate>
+            <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite"></animate>
+        </circle>
+        <circle cx="22" cy="22" r="6" fill-opacity="0.7">
+            <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite"></animate>
+            <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite"></animate>
+            <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite"></animate>
+        </circle>
+        <circle cx="22" cy="22" r="8">
+            <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite"></animate>
+        </circle>
+    <title></title></g>
+</svg>
